@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv(r"C:\Users\junai\PyCharmMiscProject\.venv\hello\Amazon_Unlocked_Mobile.csv")
+df = pd.read_csv("Amazon_Unlocked_Mobile.csv")
 print(df.head())
 print("-----------------------------------------------------------------------------------------")
 print(df.info())
